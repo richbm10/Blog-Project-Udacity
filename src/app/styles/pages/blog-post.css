@@ -91,6 +91,14 @@
     left: 5%;
 }
 
+#post-image-caption{
+    position: relative;
+    top: 85%;
+    color: white;
+    background-color: rgb(72, 65, 67, 0.85);
+    border-radius: 10px;
+}
+
 #update-date{
     font-size: 1.5em;
     color: rgb(72, 65, 67, 0.50);
