@@ -3,7 +3,7 @@
 @import "../components/footer.css";
 @import "../components/topbar.css";
 
-body{
+body {
 
     display: grid;
     height: 100vh;
@@ -18,7 +18,7 @@ body{
         "ft ft ft";
 }
 
-.main{
+.main {
     grid-area: main;
   
     display: grid;

@@ -1,9 +1,10 @@
 
+@import "../images.css";
 @import "../components/blog-post-card.css";
 @import "../pages/index.css";
 @import "../global.css";
 
-body{
+body {
   grid-template-rows: 64px 67px 1fr 236px;
 
   grid-template-areas: 
@@ -13,7 +14,7 @@ body{
     "ft ft ft";
 }
 
-#main-content{
+#main-content {
   grid-area: 1/2/2/3;
   display: flex;
   flex-flow: row wrap;

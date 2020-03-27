@@ -1,6 +1,6 @@
 
 
-.header{
+.header {
     grid-area: hd;
     background: #484143;
 
@@ -12,18 +12,18 @@
     grid-template-rows: 64px;
 }
 
-.header-nav-button{
+.header-nav-button {
     margin: 5%;
     color: #ffffff;
 }
 
-#header-content{
+#header-content {
     grid-area: 1/2/2/3;
     height: 64px;
     justify-content: space-between;
 }
 
-#logo{
+#logo {
     width: 174px;
     height: 33px;
     margin-left: 2%;

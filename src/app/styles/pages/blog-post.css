@@ -1,23 +1,24 @@
 
+@import "../images.css";
 @import "../components/card.css";
 @import "../pages/index.css";
 @import "../global.css";
 
-.avatar{
+.avatar {
     width: 58px;
     height: 58px;
     margin-right: 1%;
 }
 
-.social-media{
+.social-media {
     justify-content: space-between;
 }
 
-.bubble{
+.bubble {
     margin-right: 1%;
 }
 
-.red-bubble{
+.red-bubble {
     background-color: #E60023;
     color: #FFFFFF;
     border-radius: 10px;
@@ -26,7 +27,7 @@
     border: none;
 }
 
-.blue-a-bubble{
+.blue-a-bubble {
     background-color: #3578E5;
     color: #FFFFFF;
     border-radius: 10px;
@@ -35,7 +36,7 @@
     border: none;
 }
 
-.blue-b-bubble{
+.blue-b-bubble {
     background-color: #0073B1;
     color: #FFFFFF;
     border-radius: 10px;
@@ -44,7 +45,7 @@
     border: none;
 }
 
-.blue-c-bubble{
+.blue-c-bubble {
     background-color: #1DA1F2;
     color: #FFFFFF;
     border-radius: 10px;
@@ -53,34 +54,16 @@
     border: none;
 }
 
-.comment{
+.comment {
     margin: 0% 0% 0% 0%;
 }
 
-.icon{
+.icon {
     width: 25px;
     height: 25px;
 }
 
-#share-icon{
-    width: 50px;
-    height: 50px;
-}
-
-#main-content{
-    grid-area: 1/2/2/3;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    color: #484143;
-}
-
-#front{
-    margin-bottom: 5%;
-}
-
-#post-image{
-    background-image: url("../../../assets/images/desk-img.jpg");
+.post-image {
     height: 25vh;
     width: 70vw;
     background-position: center;
@@ -91,7 +74,7 @@
     left: 5%;
 }
 
-#post-image-caption{
+.post-image-caption {
     position: relative;
     top: 85%;
     color: white;
@@ -99,47 +82,69 @@
     border-radius: 10px;
 }
 
-#update-date{
+#share-icon {
+    width: 50px;
+    height: 50px;
+}
+
+#main-content {
+    grid-area: 1/2/2/3;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    color: #484143;
+}
+
+#front {
+    margin-bottom: 5%;
+}
+
+#update-date {
     font-size: 1.5em;
     color: rgb(72, 65, 67, 0.50);
 }
 
-#comment-label{
+#comment-label {
     width: 80px;
 }
 
-#comments{
+#comments {
     margin: 2% 0% 2% 0%;
 }
 
-#dropdown-icon{
+#dropdown-icon {
     width: 30px;
     height: 30px;
 }
 
-@media(min-width: 985px){
-    .red-bubble{
+@media(min-width: 985px) {
+
+    .post-image {
+        height: 55vh;
+    }
+
+    .red-bubble {
         height: 3vh;
     }
     
-    .blue-a-bubble{
+    .blue-a-bubble {
         height: 3vh;
     }
     
-    .blue-b-bubble{
+    .blue-b-bubble {
         height: 3vh;
     }
     
-    .blue-c-bubble{
+    .blue-c-bubble {
         height: 3vh;
     }
+
 }
 
 @media(min-width: 1500px) {
-    #post-image{
+
+    .post-image {
         height: 55vh;
-        width: 70vw;
-        position: relative;
-        left: 5%;
     }
+
 }
