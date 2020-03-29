@@ -58,25 +58,6 @@
     height: 25px;
 }
 
-.post-image {
-    height: 25vh;
-    width: 70vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 1% 1% 1% 1%;
-    position: relative;
-    left: 10%;
-}
-
-.post-image-caption {
-    position: relative;
-    top: 85%;
-    color: white;
-    background-color: rgb(72, 65, 67, 0.85);
-    border-radius: 10px;
-}
-
 .content-section {
     text-align: justify;
     line-height: 1.25em;
@@ -88,6 +69,29 @@
 
 .card-content {
     top: 70%;
+}
+
+#post-image {
+    height: 25vh;
+    width: 70vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1% 1% 1% 1%;
+    position: relative;
+    left: 10%;
+}
+
+#post-image-caption {
+    position: relative;
+    top: 85%;
+    background-color: rgb(72, 65, 67, 0.85);
+    border-radius: 10px;
+}
+
+#caption-content {
+    color: white;
+    font-style: normal;
 }
 
 #share-icon {
@@ -147,7 +151,7 @@
 
 @media(min-width: 1000px) {
 
-    .post-image {
+    #post-image {
         height: 35vh;
     }
 
@@ -179,7 +183,7 @@
 
 @media(min-width: 1500px) {
 
-    .post-image {
+    #post-image {
         height: 55vh;
     }
 
